@@ -1006,10 +1006,31 @@
   dependencies:
     eventemitter3 "^4.0.0"
 
-"@solana/web3.js@^1.21.0", "@solana/web3.js@^1.36.0", "@solana/web3.js@^1.37.1", "@solana/web3.js@^1.63.1":
+"@solana/web3.js@^1.21.0", "@solana/web3.js@^1.36.0", "@solana/web3.js@^1.37.1":
   version "1.64.0"
   resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.64.0.tgz#b7f5a976976039a0161242e94d6e1224ab5d30f9"
   integrity sha512-AcFaoy48GxSmzBryVwB88C/UPJd/UQa+nFrO/uPc8ww6RCjanZY2vEZxdfTZub+q1NMUckwXpPwF32jJLe7SPA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@noble/ed25519" "^1.7.0"
+    "@noble/hashes" "^1.1.2"
+    "@noble/secp256k1" "^1.6.3"
+    "@solana/buffer-layout" "^4.0.0"
+    bigint-buffer "^1.1.5"
+    bn.js "^5.0.0"
+    borsh "^0.7.0"
+    bs58 "^4.0.1"
+    buffer "6.0.1"
+    fast-stable-stringify "^1.0.0"
+    jayson "^3.4.4"
+    node-fetch "2"
+    rpc-websockets "^7.5.0"
+    superstruct "^0.14.2"
+
+"@solana/web3.js@^1.50.1":
+  version "1.66.1"
+  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.66.1.tgz#f11bf657e76500780a1b94fa286e9ff9e6106c71"
+  integrity sha512-AAVW9vGqYo8m2kMdwQtzEFuEBT21D0Z13wCzGC0lv4vay1BaqDUGSangmakeDEirtIsaAtM0gfAPu1YNLkIy/Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@noble/ed25519" "^1.7.0"
@@ -2368,14 +2389,14 @@ react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react-xnft@0.1.0-latest.2488:
-  version "0.1.0-latest.2488"
-  resolved "https://registry.yarnpkg.com/react-xnft/-/react-xnft-0.1.0-latest.2488.tgz#be4ad93c5c0f0f3f8949f82aa72d715f2627501f"
-  integrity sha512-sO0II0Kolykpo4UaUMbznTpdueW2mrw+K5QN2AhCvEYVJrhLKbPM2TyKC/eA2GPpeVTo+uYtGmjLNjtG7aY1nA==
+react-xnft@*:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/react-xnft/-/react-xnft-0.0.4.tgz#9f39ac73a0530259049af59873c43d02237a0eba"
+  integrity sha512-wsicSq78hgVY1hwGzzGkxrooamLOudNV4mxTDqWLCLQJKn1JGOfuSnbHuwr3fowchn1cTkFtG0lyvTER3tKyhg==
   dependencies:
     "@coral-xyz/common-public" "*"
     "@coral-xyz/themes" "*"
-    "@solana/web3.js" "^1.63.1"
+    "@solana/web3.js" "^1.50.1"
     eventemitter3 "^4.0.7"
     react "^17.0.0"
     react-reconciler "^0.26.0"
